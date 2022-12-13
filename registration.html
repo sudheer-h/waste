@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        label{
+            color:white;
+            font-size:x-large;
+            font-family:sans-serif
+        }
+        form{
+            align-items: center;
+            margin-left:670px;
+            margin-top:60px;
+            margin-right:640px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+        <img src="logo.png" alt="logo">
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">AboutUs</a></li>
+        </ul>
+    </nav>
+    <main>
+       <form>
+        <label for="Username">Enter mail:</label><br>
+        <input type="email" id="Username" placeholder="mail@example.com"><br> 
+        <label for="PhoneNo">Enter PhoneNo:</label><br>
+        <input type="number" id="PhoneNo"><br>
+        <label for="create password">Create password:</label><br>
+        <input type="password" id="create password"><br>
+        <label for="confirm password">Confirm password:</label><br>
+        <input type="password" id="confirm passsword"><br>
+        <label for="Subscription plan">Subscription plan:</label><br>
+        <select name="plan" id="option">
+            <option value="Mobile">Mobile</option>
+            <option value="Basic">Basic</option>
+            <option value="Standard">Standard</option>
+            <option value="Premium">Premium</option>
+          </select>    
+         <br>
+        <label for="payment mode">Payment Mode:</label>
+        <br>
+        <select name="plan" id="option">
+            <option value="Debitcard">Debitcard</option>
+            <option value="Creditcard">Creditcard</option>
+            <option value="UPI">UPI</option>
+        </select>
+        <br>
+        <input type="button" value="Next"><br>
+       </form>
+    </main> 
+    <footer>
+        Copyrights &copy; Netflix,Inc.
+    </footer>
+</body>
+</html>
